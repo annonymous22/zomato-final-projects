@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+    background-color: #ebf2ff;
+    font-family: Merriweather, sans-serif;
+  }
+
+.navbar{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    margin-top: 5px;
+
+}
+
+.nav_logo{
+    width: 100px;
+}
+
+.navbar_logo{
+  position: relative;
+  right: 500px;
+    width: 100%;
+}
+
+.nav_search{
+  position: relative;
+  left: 400px;
+}
+
+
+ .primary_button {
+    background-image: linear-gradient(to right, #ff512f 0%, #dd2476 51%, #ff512f);
+    color: white;
+    padding: 12px;
+    border-radius: 6px;
+    font-weight: 600;
+    position: relative;
+    bottom: 1px;
+    right: 50px;
+  }
+
+  .primary_button_2{
+    background-image: linear-gradient(to right, #ff512f 0%, #dd2476 51%, #ff512f);
+    color: white;
+    padding: 12px;
+    border-radius: 6px;
+    font-weight: 600;
+    position: relative;
+    left: 710px;
+    bottom:310px;
+  }
+
+  /*.primary_button:hover{
+    to right
+    color: ;
+  }*/
+
+  .container{
+    
+    max-width:100%;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  .hero_img_container{
+    width: 100%;
+    /*background-image:url(https://images2.alphacoders.com/572/572397.jpg);*/
+    /*padding-bottom: 60px*/;
+    border-radius: 80px;
+  }
+
+  .hero_img{
+    position: relative;
+    left: 850px;
+    width:600px;
+    border-radius: 6px;
+    box-shadow:0 25px 50px -12px black;
+    
+  }
+
+  .hero_text
+  {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 0;
+    color:#00235B ;
+    position: relative;
+    bottom: 250px;
+  }
+
+  .explore_menu_text{
+    position: relative;
+    bottom:50px;
+    align-content: center;
+    font-size: 15px;
+    font-weight: 700;
+    animation:5s explore_menu_text infinite ;
+  animation-delay :7sec ;
+  }
+
+  @keyframes explore_menu_text {
+    100%{
+      margin-left: 1200px;
+      color: #000000;
+    }
+    50%{
+     margin-left: 1200px;
+      color:#B8621B;
+    }
+    
+  }
+
+  .explore_menu_list{
+    justify-content: space-between;
+  }
+
+.food_card{
+  background-color: #f9f9f9;
+  padding-top: 15px;
+  display: inline-block;
+  margin: 15px;
+}
+  .food_card_img{
+    width:300px;
+    align-content: center;
+  }
+
+  .food_img{
+    width: 300px;
+    height: 200px;
+    border-radius:10px ;
+    box-shadow: 0 25px 50px -12px black;;
+  }
+
+  .food_img_transition{
+    height:200px ;
+    width: 300px;
+    border-radius:10px;
+    box-shadow: 0 25px 50px -12px black;
+  }
+
+  .food_card_description{
+    font-weight: 600;
+    align-items: center;
+    padding: 12px;
+
+  }
+  /*-------------------------------------------food card 2---------------------------------------------------------------------------------------------*/
+
+.food_card_img_2{
+  display: inline-block;
+  width:300px;
+  align-content: center;
+}
+
+.food_img_transition_2{
+  height:200px ;
+    width: 300px;
+    border-radius:10px;
+    box-shadow: 0 25px 50px -12px black;
+  
+}
+
+  /*------------------------------------------------------------footer--------------------------------------------------------------------*/
+.description_container{
+    background-color:white;
+   height: 260px;
+  }
+  
+
+   .zomato_logo{
+    
+      position: relative;
+      left: 10px;
+    width: 120px;
+   }
+   
+   .box{
+    position: relative;
+    left: 1000px;
+    bottom: 20px;
+   }
+   
+   .btn{
+    width: 100px;
+    cursor: pointer;
+   }
+
+   .box_2{
+    position: relative;
+    left: 1150px;
+    bottom: 40px;
+    cursor: pointer;
+   }
+
+   .btn_2{
+    width: 100px;
+   }
+
+   .btn:hover{
+    background-color: #000000;
+    color: white;
+   }
+
+   .btn_2:hover{
+    background-color: #000000;
+    color: white;
+   }
+
+  .h1_about_1{
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px;
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+    right: 5px;
+    color: red;
+
+}
+
+  .paragraph_1{
+    position: relative;
+    bottom: 20px;
+    padding-top: 10px;
+    margin: 10px;
+    font-weight: 200;
+  }
+
+
+
+ .h1_about_2{
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  float: top;
+  position: relative;
+  bottom:185px;
+  right: 350px;
+  color: red;
+
+}
+
+.paragraph_2{
+  position: relative;
+  bottom: 175px;
+  font-weight: 200;
+  left: 270px;
+}
+
+.h1_about_3{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  right: 100px;
+  bottom:310px;
+  font-size: 20px;
+  color: red;
+}
+
+.paragraph_3{
+  position: relative;
+  bottom: 300px;
+  font-weight:200;
+  left: 490px;
+ 
+}
+
+.h1_about_4{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 150px;
+  bottom: 375px;
+  font-size: 20px;
+  margin-right: 10px;
+  color: red;
+}
+.paragraph_4{
+position: relative;
+left:760px;
+bottom: 370px;
+font-weight: 200;
+}
+
+.description_container:hover{
+ cursor: pointer
+}
